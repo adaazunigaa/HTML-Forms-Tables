@@ -33,7 +33,10 @@
 
 
 
+
+
         <br>
+        <!--BUTONS BUTTONS BUTONS BUTTONS BUTONS BUTTONS  -->
         <!--this button does not submit the form b/c of the "type" attribute -->
         <button type="button">Regular button (won't submit)</button>
 
@@ -82,6 +85,56 @@
         <input type="text" name="search_query">
         <button>Search youtube</button>
     </form>
+
+
+    <br><br><br><br>
+
+
+
+
+    <h2>MORE INPUTS!</h2>
+    <form action="/birds">
+        <!--CHECKBOX CHECKBOX CHECKBOX CHECKBOX CHECKBOX CHECKBOX CHECKBOX CHECKBOX -->
+        <input type="checkbox" name="agree_tos" id="agree" checked>
+        <label for="agree">I agree for everything</label>
+
+
+
+        <!--RADIO RADIO RADIO RADIO RADIO RADIO RADIO RADIO RADIO RADIO RADIO RADIO-->
+        <div>
+            <label for="XS">XS</label>
+            <input type="radio" name="size" id="XS" value="XS">
+
+            <label for="S">S</label>
+            <input type="radio" name="size" id="S" value="S">
+
+            <label for="M">M</label>
+            <input type="radio" name="size" id="M" value="M">
+
+            <label for="L">L</label>
+            <input type="radio" name="size" id="L" value="L">
+        </div>
+
+
+
+        <!--SELEC & OPTION SELEC & OPTION SELEC & OPTION SELEC & OPTION SELEC & OPTION-->
+        <div>
+            <label for="meal">Please select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <!--you can have something that is preselected "selected"-->
+                <option value="veg" selected>Vegetarian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </div>
+
+
+        <button>Submit</button>
+
+
+
+    </form>
+
 
 </body>
 
