@@ -29,7 +29,7 @@
         <br>
 
         <label for="number">Enter a number</label>
-        <input type="number" id="number" placeholder="Enter a number" name="num">
+        <input type="number" id="number" placeholder="Enter a number" name="num" min="1" max="100" step="2">
 
 
 
@@ -129,9 +129,24 @@
         </div>
 
 
+
+        <!--INPUT RANGE INPUT RANGE INPUT RANGE INPUT RANGE INPUT RANGE -->
+        <div>
+            <label for="cheese">Amout of cheese</label>
+            <input type="range" name="cheese_level" id="cheese" min="1" max="100" step="5" value="50">
+        </div>
+
+
+
+
+        <!--TEXAREA -->
+        <label for="request">Any Special Request</label>
+        <textarea name="request" id="request" cols="40" rows="5" placeholder="Enter your request"></textarea>
+
+
+
+        <br>
         <button>Submit</button>
-
-
 
     </form>
 
