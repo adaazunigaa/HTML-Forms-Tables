@@ -148,6 +148,35 @@
         <br>
         <button>Submit</button>
 
+        <br>
+
+        <!--VALIDATIONS VALIDATIONS VALIDATIONS VALIDATIONS VALIDATIONS VALIDATIONS VALIDATIONS VALIDATIONS
+            *required 
+            *maxlength 
+            *minlenght
+            *urls-->
+        <h2>Validatios Demo</h2>
+        <form action="/dummy">
+            <label for="first">Enter First Name</label>
+            <input type="text" name="first" id="first" required>
+
+            <div>
+                <label for="username">Username</label>
+                <input type="text" name="usernmane" id="username" minlength="5" maxlength="20" required>
+            </div>
+
+            <div>
+                <label for="email">Enter an email</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="url"></label>
+                <input type="url" name="url" id="url" required>
+            </div>
+
+
+            <button>Submit</button>
+        </form>
+
     </form>
 
 
